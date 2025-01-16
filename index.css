@@ -1,0 +1,122 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  box-sizing: border-box;
+}
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+/* ================= Header ============ */
+header{
+  position: absolute;
+  top:0%;
+  left: 0%;
+  width:100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* navbar */
+nav {
+  color: darkgray;
+  float: right;
+  margin: 30px 90px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+  transition: transform 0.3s ease, background-color 0.3s ease, padding 0.3s ease;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  background: black;
+  font-size: 15px;
+  padding: 12px 20px;
+  border-radius: 5px;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: white;
+  background: mediumseagreen;
+  transform: scale(1.1);
+}
+
+nav ul li:hover {
+  transform: translateY(-5px); 
+  background-color: midnightblue;  
+  padding-top: 15px;
+}
+
+nav ul li a:active {
+  background-color: mediumturquoise;  
+}
+
+/* Logo */
+.logo{
+  width: 46px;
+  height: 46px;
+  background: black;
+  margin: 40px 63px;
+  float: left;
+  transform: rotate(-30deg);
+}
+.logo span{
+  font-size: 2em;
+  line-height: 1.4;
+  padding-left: 4px;
+  font-weight: bold;
+}
+/* Header content & title & button*/
+.header-content{
+  margin-top:20%;
+  text-align: center;
+}
+.header-content h1{
+  text-transform: uppercase;
+  font-size: 60px;
+  letter-spacing: 1px;
+ margin: 20px auto;
+color:black;
+ 
+}
+.header-content h2 {
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 20px auto;
+color:white;
+}
+
+.header-content .button {
+  display: inline-block;
+  width: 140px;
+  margin: 40px 60px;
+  color: white;
+  font-size: 14px;
+  border: 2px solid black;
+  font-weight: 500;
+  background-color: mediumseagreen;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.header-content .button:hover {
+  border-radius: 0;
+}

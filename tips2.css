@@ -1,0 +1,122 @@
+body {
+      padding: 2em;
+background: url(2.jpg) no-repeat center center fixed; 
+background-size: cover;
+background-size: cover;
+background-size: cover;
+  background-size: cover;
+
+
+
+
+}
+
+/* navbar */
+nav {
+  color: darkgray;
+  float: right;
+  margin: 20px 90px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+  transition: transform 0.3s ease, background-color 0.3s ease, padding 0.3s ease;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  background: white;
+  font-size: 15px;
+  padding: 12px 20px;
+  border-radius: 5px;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: white;
+  background: mediumseagreen;
+  transform: scale(1.1);
+}
+
+nav ul li:hover {
+  transform: translateY(-5px); 
+  background-color: midnightblue;  
+  padding-top: 15px;
+}
+
+nav ul li a:active {
+  background-color: mediumturquoise;  
+}
+
+
+
+/* Header content */
+.header-content{
+  margin-top:5%;
+  color:  white;
+}
+.header-content h1{
+  font-size: 48px;
+  letter-spacing: 1px;
+ margin: 60px auto;
+color:red;
+
+  text-align: center;
+ 
+}
+.header-content h4 {
+   font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    color:lightpink;
+}
+.header-content h2 {
+  font-size: 20px;
+  line-height: 1.2;
+  margin: 20px auto;
+ text-decoration: underline;
+color:orange;
+
+  text-align: left;
+}
+
+.header-content h5 {
+font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    color:lightpink;
+}
+
+.header-content p {
+  line-height:1.6;
+font-size: 28px;
+color:white;
+
+  text-align: left;
+}
+
+button{
+  width: 140px;
+  color: blue;
+  font-size: 14px;
+  border:2px solid white;
+  font-weight: 500;
+ background-color: orange;
+  border-radius: 20px;
+  padding: 10px;
+  cursor:cross hair;
+  transition: .2s;
+}
+button:hover{
+  border-radius: 0;
+
+

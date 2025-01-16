@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<title>Contact us - fishing site</title>
+<link href="contact us.css" rel="stylesheet">
+
+<script>
+function reloadPage()
+{
+location.reload();
+alert("changes you made may not be saved");
+}
+
+function fun()
+{
+	alert("It will takes you to mail,Are you sure to send it.");
+}
+
+function fun1()
+{
+	alert("Are you sure! to go back");
+}
+
+</script>
+
+</head>
+<body>
+<!-- navbar -->
+     <nav>
+        <ul>
+           <li onclick="fun1()"><a href="index.html" target="_blank">home</a></li>
+         </ul>
+       </nav>
+
+
+<form action="mailto:pothurisubbaraju2004@gmail.com"
+method="POST"
+enctype="multipart/form-data"
+name="EmailForm">
+<div class="container"> 
+   <h1 align="center"><b><i><br><br>CONTACT US FORM</i></b> </h1>
+
+<p align="center">Name:<input type="text" name="Name" required></p>
+   
+<p align="center">
+<label for="email">Enter your email:</label>
+  <input type="email" id="email" name="email" required>
+</p>
+
+<p align="center">
+Gender:
+<input type="radio" name="gender" value="male" required>Male
+<input type="radio" name="gender" value="Female" required>Female
+</p>
+
+<p align="center">Enter your message here:<br><textarea rows="4" cols="50" name="comment" required>
+</textarea><br><br></p>
+
+<button type="submit" value="Submit" onclick="fun()">Send</button>
+<input type="button" value="Reload page" onclick="reloadPage()">
+</div> 
+</form>
+</body>
+</html>
